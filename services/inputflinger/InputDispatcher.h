@@ -47,21 +47,6 @@ namespace android {
  * Constants used to report the outcome of input event injection.
  */
 enum {
-    /* (INTERNAL USE ONLY) Specifies that injection is pending and its outcome is unknown. */
-    INPUT_EVENT_INJECTION_PENDING = -1,
-
-    /* Injection succeeded. */
-    INPUT_EVENT_INJECTION_SUCCEEDED = 0,
-
-    /* Injection failed because the injector did not have permission to inject
-     * into the application with input focus. */
-    INPUT_EVENT_INJECTION_PERMISSION_DENIED = 1,
-
-    /* Injection failed because there were no available input targets. */
-    INPUT_EVENT_INJECTION_FAILED = 2,
-
-    /* Injection failed due to a timeout. */
-    INPUT_EVENT_INJECTION_TIMED_OUT = 3
 };
 
 /*
